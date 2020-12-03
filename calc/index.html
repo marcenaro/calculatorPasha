@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../source/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header-nav">
+                <!-- <div class="header-main-logo" href="">
+                    <img src="ТУТ ЛОГОТИП" class="logo-img">
+                </div> -->
+
+                <ul class="header-main-navigation">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="math/calc.html">Расчёты</a></li>
+                    <li><a href="">Информация</a></li>
+                </ul>
+                <ul class="user-navigation">
+                    <li><a class="login-link" href="">Вход</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="main shadow-box">
+            <!-- НАЧАЛО СЕКЦИИ С ОСНОВНЫМ КОНТЕНТОМ -->
+
+            <img class="pageNum" src="CommonImg/ListNumber_0.0.png" alt="">
+            <img class="pen" src="CommonImg/Pen.png" alt="">
+
+            <div class="login">
+                <!-- <div class="loginCenter"> -->
+                <h1> Добро пожаловать</h1>
+                <p>Данный сайт обращён к учащимся в том или ином объеме изучающим математику и/или геометрию и призван
+                    помочь
+                    школьникам и
+                    студентам в изучении курса математики, освободить их от многих рутинных вычислений, и подсказать
+                    метод
+                    решения.<br>
+                    Основу сайта составляют математические программы (калькуляторы) для решения задач онлайн.<br>
+                    Все вычисления производятся на сайте, программы не нужно скачивать и устанавливать на компьютер.<br>
+                    На каждую задачу приводится поэтапный процесс получения ответа, т.е. подробное решение с
+                    объяснениями этапов
+                    решения данной задачи.<br>
+                    Решение задач приводится в виде, принятом в большинстве школ и вузов, некоторые задачи решаются
+                    двумя
+                    способами.<br>
+                    Все математические программы (калькуляторы) бесплатные.<br>
+                    Полный список математических и геометрических задач для решения вы можете найти в меню справа.<br>
+                </p>
+            </div>
+        </section>
+
+        <section class="two-section">
+            <div class="container">
+                <div class="info-content-two">
+                    <h2 class="h2-info">Above</h2>
+                    <p class="p-info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="three-section">
+            <div class="info-content-three">
+                <h2 class="h2-info">Team</h2>
+                <div class="person-info">
+                    <div class="persone">
+                        <img src="img/1.png" alt="1">
+                        <h3>John Doe</h3>
+                        <p>Founder & CEO</p>
+                    </div>
+                    <div class="persone">
+                        <img src="img/2.png" alt="2">
+                        <h3>John Doe</h3>
+                        <p>Co- Founder</p>
+                    </div>
+                    <div class="persone">
+                        <img src="img/3.png" alt="3">
+                        <h3>John Doe</h3>
+                        <p>Investor</p>
+                    </div>
+                </div>
+                <a class="btn-person" href="">Work with us</a>
+
+            </div>
+        </section>
+
+        <div class="map-img">
+            <a class="button contacts-button-map" href="">Где мы находимся</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <ul class="foo-nav">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Faq</a></li>
+                    <li><a href="">Work with us</a></li>
+                </ul>
+                <ul class="foo-icon">
+                    <li><a href=""><img alt="icon-instagram" src="img/insta.png"></a></li>
+                    <li><a href=""><img alt="icon-facebook" src="img/facebook.png"></a></li>
+                    <li><a href=""><img alt="icon-tweet" src="img/tweet.png"></a></li>
+                </ul>
+            </div>
+            <!-- 
+            <div class="footer-end">
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Conditions</li>
+                    <li>@ Company LLC 2014</li>
+                </ul>
+            </div> -->
+        </div>
+    </footer>
+
+    <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p class="modal-description">Введите пожалуйста свой логин и пароль</p>
+        <form class="login-form" action="" method="post">
+            <p>
+                <label class="visually-hidden" for="user-login">Логин</label>
+                <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин">
+            </p>
+            <p>
+                <label class="visually-hidden" for="user-password">Пароль</label>
+                <input class="login-icon-password" id="user-password" type="password" name="password"
+                    placeholder="Пароль">
+            </p>
+            <p class="login-help">
+                <label class="login-checkbox">
+                    <input type="checkbox" name="remember" class="visually-hidden">
+                    <span class="checkbox-indicator"></span>
+                    Запомните меня
+                </label>
+                <a class="restore" href="#">Я забыл пароль!</a>
+            </p>
+            <button class="button button-1" type="submit">Войти</button>
+            <button class="button button-2" type="button">Регистрация</button>
+        </form>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
+
+    <section class="modal modal-map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1323.2534569488737!2d22.714097682803338!3d48.44680269282884!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3dde97e14776834d!2z0JzRg9C60LDRh9C10LLRgdC60LjQuSDQs9C-0YHRg9C00LDRgNGB0YLQstC10L3QvdGL0Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgg!5e0!3m2!1sru!2sua!4v1594838740216!5m2!1sru!2sua"
+            width="766" height="560" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0">
+        </iframe>
+        <h2 class="visually-hidden">Как до нас добратся</h2>
+        <p class="visually-hidden">Офис компании по адресу ул.Ужгородська, 25, Мукачево"></p>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
+    <!-- <div class="modal-overlay"></div> -->
+
+
+    <script src="js/popup.js"></script>
+    <script src="js/map.js"></script>
+
+</body>
+
+</html>
