@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../source/css/block/math.css">
+  <link rel="stylesheet" href="../../source/style.css">
+  <title>Document</title>
+  <link type="text/css" rel="stylesheet"
+    href="https://www.gstatic.com/og/_/ss/k=og.qtm.MS6fO3HUAzQ.L.W.O/m=qdid,qcwid/excm=qaaw,qadd,qaid,qein,qhaw,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/ct=zgms/rs=AA2YrTunZMz9vXN9D_fVuVUp2s6sffrErw"
+    nonce="p3XpVWM1J/6uHhG57aDpgw==">
+  <script src="../../js/jquery.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav">
+        <!-- <div class="header-main-logo" href="">
+                    <img src="ТУТ ЛОГОТИП" class="logo-img">
+                </div> -->
+
+        <ul class="header-main-navigation">
+          <li><a href="../index.html">Главная</a></li>
+          <li><a href="">Расчёты</a></li>
+          <li><a href="">Информация</a></li>
+        </ul>
+        <ul class="user-navigation">
+          <li><a class="login-link" href="">Вход</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+
+      <main class="main" style="display: flex;">
+        <select name="calc" id="calc2">
+          <p>
+            <label>Фаренгейт</label>
+            <input id="inputFahrenheit" type="number" placeholder="Фаренгейт" oninput="temperatureConverter(this.value)"
+              onchange="temperatureConverter(this.value)">
+          </p>
+          <p>Цельсий: <span id="outputCelsius"></span></p>
+        </select>
+        <script>function temperatureConverter(valNum) {
+            valNum = parseFloat(valNum);
+            document.getElementById("outputCelsius").innerHTML = (valNum - 32) / 1.8;
+          }</script>
+      </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <ul class="foo-nav">
+          <li><a href="">About</a></li>
+          <li><a href="">Faq</a></li>
+          <li><a href="">Work with us</a></li>
+        </ul>
+        <ul class="foo-icon">
+          <li><a href=""><img alt="icon-instagram" src="../img/insta.png"></a></li>
+          <li><a href=""><img alt="icon-facebook" src="../img/facebook.png"></a></li>
+          <li><a href=""><img alt="icon-tweet" src="../img/tweet.png"></a></li>
+        </ul>
+      </div>
+      <!-- 
+            <div class="footer-end">
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Conditions</li>
+                    <li>@ Company LLC 2014</li>
+                </ul>
+            </div> -->
+    </div>
+  </footer>
+  <script src="js/popup.js"></script>
+  <script>
+    /* Когда поле ввода получает ввод, преобразуйте значение из фунтов в килограммы */
+    function weightConverter(valNum) {
+      document.getElementById("outputGrams").innerHTML = valNum / 0.0022046;
+    }
+  </script>
+</body>
+
+</html>
